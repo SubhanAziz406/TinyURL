@@ -68,8 +68,8 @@ TheTinyURLs is a web-based URL shortening service that allows users to quickly c
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/thetinyurls.git
-   cd thetinyurls
+   git clone https://github.com/SubhanAziz406/TinyURL.git
+   cd TinyURL
    ```
 
 2. **Database Setup:**
@@ -98,11 +98,11 @@ TheTinyURLs is a web-based URL shortening service that allows users to quickly c
 
 ## License
 
-This project is licensed by Green Bills Inc. See the individual file headers for more information.
+This project is licensed by Subhan Aziz. See the individual file headers for more information.
 
 ## Contact
 
-For support or inquiries, email: [support@thetinyurls.com](mailto:support@thetinyurls.com)
+For support or inquiries, email: [contact@mrsubhan.com](mailto:contact@mrsubhan.com)
 
 ---
 
