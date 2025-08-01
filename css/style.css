@@ -1,0 +1,690 @@
+
+.navbar-nav .nav-link:hover {
+    color: #fff; /* Change to white on hover */
+}
+
+.dropdown-item:hover {
+    background-color: #ee4619; /* Highlight on hover */
+    color: #fff; /* White text on hover */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #dcdcdc; /* Default color for dropdown items */
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-image: url(../assests/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.hero-section {
+    padding: 100px 0; /* Adjust the top and bottom padding */
+    background-color: #f8f9fa; /* Optional: Change background color */
+}
+
+.hero-section .container {
+    max-width: 1200px; /* Set a max width for the container */
+}
+
+.hero-section h1 {
+    font-size: 3rem; /* Adjust font size of the heading */
+}
+
+.hero-section p.lead {
+    font-size: 1.25rem; /* Adjust font size of the lead paragraph */
+}
+
+
+.additional-text {
+    color: white; /* Adjust color as needed */
+    font-size: 1.2rem; /* Adjust font size as needed */
+    margin-top: 1rem; /* Spacing between paragraphs */
+}
+
+.additional-text i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.url-form {
+    max-width: 600px;
+}
+
+.url-form .form-control {
+    border-radius: 0;
+    padding: 20px;
+    font-size: 1.1rem;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.url-form .btn {
+    border-radius: 0;
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    background-color: #FF5F1F;
+    border-color: #FF5F1F;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.url-form .btn:hover {
+    background-color: #d44617;
+    transform: translateY(-2px);
+}
+
+#result {
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group-lg .form-control {
+    font-size: 1.2rem;
+    padding: 15px 20px;
+}
+
+
+/* About Section */
+/* About Section */
+.about-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    position: relative;
+    display: inline-block;
+}
+
+.highlight {
+    color: #FF5F1F;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    color: #6c757d;
+    line-height: 1.8;
+}
+
+.feature-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    color: #FF5F1F;
+}
+
+.feature-box h5 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.feature-box p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+
+/* FAQ Section */
+/* FAQ Section */
+.faq-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.faq-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.faq-section .accordion .card {
+    background: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section .accordion .card-header {
+    background-color: transparent;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+}
+
+.faq-section .accordion .btn-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF5F1F;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.faq-section .accordion .btn-link:hover {
+    color: #FF5F1F;
+}
+
+.faq-section .accordion .btn-link i {
+    margin-right: 10px;
+}
+
+.faq-section .accordion .collapse {
+    transition: height 0.4s ease;
+}
+
+.faq-section .accordion .card-body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-size: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.faq-section .card-body i {
+    color: #FF5F1F;
+    margin-right: 10px;
+}
+
+
+.footer {
+    background: linear-gradient(135deg, #1a1a1a, #000000); /* Gradient background */
+    color: #ffffff;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-link {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ee4619; /* Highlight color on hover */
+}
+
+.footer-text {
+    color: #b3b3b3;
+}
+
+.footer-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.footer-icon {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+    color: #ee4619; /* Icon hover color */
+}
+
+.footer .border-top {
+    border-top-color: rgba(255, 255, 255, 0.2); /* Lighter border */
+}
+
+
+
+
+
+/* URL Table */
+.my-urls-section h2 {
+    font-size: 2rem;
+    color: #495057;
+}
+
+.table thead {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table td a {
+    color: #007bff;
+}
+
+.table td a:hover {
+    text-decoration: underline;
+}
+
+.table td button {
+    margin-right: 5px;
+}
+
+/* Analytics Section */
+.analytics-section h2 {
+    font-size: 2rem;
+    color: #495057;
+}
+
+#clicksChart {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa;
+    color: #495057;
+    border-top: 1px solid #dee2e6;
+}
+
+
+/* Testimonial Section */
+.testimonials-section {
+    background-color: #f1f5f9;
+    padding: 60px 0;
+}
+
+.testimonials-section h2 {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 40px;
+}
+
+.testimonials-section .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.testimonials-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-section .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 4px solid #FF5F1F;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.testimonials-section .card:hover img {
+    transform: scale(1.1);
+}
+
+.testimonials-section .card-title {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.testimonials-section .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-top: 15px;
+}
+
+/* Add some animation */
+.user-img {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+
+.contact-section h2 {
+    color: #FF5F1F;
+}
+
+
+
+.contact-section .form-control {
+    border: 1px solid #FF5F1F;
+    border-radius: 4px;
+    color: #333;
+}
+
+.contact-section .btn-primary {
+    background-color: #FF5F1F;
+    border: none;
+}
+
+.contact-section .btn-primary:hover {
+    background-color: #FF5F1F;
+}
+
+
+
+.hero-about-section {
+    background: linear-gradient(135deg, #00416A, #E4E5E6);
+    color: white;
+    padding: 60px 0;
+}
+
+.hero-about-section h1 {
+    font-size: 3rem;
+}
+
+.hero-about-section p {
+    font-size: 1.25rem;
+}
+
+.about-section {
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #FF5F1F;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-section i {
+    color: #FF5F1F;
+    margin-right: 10px;
+}
+
+.mission-section {
+    background-color: #fff;
+    color: #343a40;
+    padding: 60px 0;
+}
+
+.mission-section h2 {
+    font-size: 2.5rem;
+    color: #FF5F1F;
+}
+
+.mission-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.mission-section i {
+    color: #FF5F1F;
+    margin-right: 10px;
+    
+}
+
+
+
+
+
+
+/* Hero Section */
+.hero-container {
+    background-image: url(../assests/bg-1.jpg);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-header {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-subtext {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* FAQ Section */
+.faq-container {
+    background-color: #fff;
+    color: #333;
+    padding: 60px 0;
+}
+
+.faq-container h2 {
+    font-size: 2.5rem;
+    color: #FF5F1F;
+    margin-bottom: 40px;
+}
+
+.faq-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item-box h5 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-item-box i {
+    color: #FF5F1F;
+    margin-right: 10px;
+}
+
+.faq-item-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-section a {
+    color: #FF5F1F;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .hero-header {
+        font-size: 2.5rem;
+    }
+
+    .faq-container h2 {
+        font-size: 2rem;
+    }
+
+    .faq-item-box h5 {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* Custom Styles */
+.bg-primary-custom {
+    background-color: #FF5F1F; /* Primary color */
+}
+
+.bg-primary-custom:hover {
+    background-color: #FF5F1F; /* Slightly darker shade for hover */
+}
+
+.text-dark-custom {
+    color: #333; /* Dark text color */
+}
+
+.contact-form-wrapper {
+    max-width: 500px; /* Width of the form container */
+    margin: 0 auto;
+}
+
+.form-card {
+    padding: 2rem; /* Padding inside the form card */
+}
+
+.form-title {
+    font-size: 1.5rem; /* Font size for the form title */
+    font-weight: bold;
+    color: #333; /* Adjust text color if needed */
+}
+
+.custom-input {
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 0.375rem; /* Rounded corners */
+}
+
+.custom-input:focus {
+    border-color: #ced4da; /* Gray border color on focus */
+    box-shadow: none; /* Remove default shadow */
+}
+
+.custom-textarea {
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 0.375rem; /* Rounded corners */
+}
+
+.custom-btn {
+    background-color: #FF5F1F; /* Primary color */
+    border-color: #FF5F1F; /* Border color to match button */
+    color: #fff; /* Text color for the button */
+}
+
+.custom-btn:hover {
+    background-color: #FF5F1F; /* Slightly darker shade for hover */
+    border-color: #FF5F1F;
+}
+
+
+/* Initial arrow pointing upwards */
+.arrow i {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Rotate the arrow when the collapse is open */
+.collapsed .arrow i {
+    transform: rotate(180deg);
+}
+
+.hover-effect {
+    transition: transform 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-header {
+    background-image: url('../assests/price-bg1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensure text is readable */
+    position: relative;
+    padding: 20px 0; /* Adjust padding as necessary */
+}
+
+.custom-header h5,
+.custom-header h2 {
+    position: relative; /* Ensures text is above the background */
+    z-index: 1;
+}
+
+.btn-lg {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .btn-lg {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}
+
